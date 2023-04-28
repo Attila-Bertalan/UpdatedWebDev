@@ -1,0 +1,296 @@
+body{
+    background: #1d2026;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    
+
+}
+
+.hero{
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+/* Added flex to student reviews*/
+.studentReviews {
+    display: flex;
+}
+
+nav{
+    background-color: #00986f;
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img{
+    margin-right: 25px;
+    cursor: pointer;
+}
+nav .logo{
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pic-container{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 12%;
+}
+.main-photo{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.text-container{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+
+}
+
+.text-container h1{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+
+}
+
+.card-container1{
+    text-align: center;
+
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    
+    transition: 0.3s;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 75px;
+    text-align: center;
+}
+
+
+  
+
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 10px 26px;
+    flex: 1;
+
+}
+
+
+.card-student {
+    /* Add shadows to create the "card" effect */
+    width: 50%;
+    height: 50%;
+    transition: 0.3s;
+    display: inline-block;
+    flex-direction: column;
+    padding: 75px;
+    text-align: center;
+
+
+}
+.card-student:hover{
+    box-shadow: 2px 2px;
+}
+
+.container-student {
+    padding: 10px 26px;
+    flex: 1;
+
+}
+
+.student-review-text{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+
+.meet-team{
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.why-ace-div{
+    text-align: center;
+}
+
+
+.why-ace{
+    color: #00986f;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.why-ace-text{
+
+    
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.loginContainer, #form {
+    border-radius: 25px;
+    background: #00986f;
+    padding: 20px; 
+    margin: auto;
+    width: 50%;
+    top: 100px;
+    position: relative;
+  }
+
+  #form {
+    color: white;
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=message], select {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit], .submitButton {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .Avatar{
+    padding-top: 5px;
+  }
+
+
+  .StudentButton{
+    background-color: #00986f ;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 9px #999
+  }
+
+.StudentButton:hover{
+    cursor: pointer;
+    background-color: #00815e;
+}
+
+.StudentButton:active{
+    background-color: #006b4e;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+  .StudentLinks{
+    text-align: center;
+    padding: 10px;
+
+  }
+
+
+  .resources {
+    display: flex;
+    justify-content: center;
+}
+
+.resources table {
+    text-align: center;
+    margin: 0 auto; /* add margin:auto to center the table within .resources */
+    border-style: solid;
+}
+
+.resources th,
+.resources td {
+    padding: 10px; /* add padding to create spacing between cells */
+    border-style: solid;
+}
