@@ -19,7 +19,7 @@ $user_ID = $_SESSION['loginID'];
 ?>
 <body>
     <div class = "hero">
-        <nav>
+        <nav class = "hero">
             <img src="images/menu.png" class ="menu-img" width="50" height="50">
             <img src="images/logo.png" class ="logo" width="75" height="65">
             <ul>

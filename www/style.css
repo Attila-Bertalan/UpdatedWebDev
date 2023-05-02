@@ -18,6 +18,12 @@ body{
     position: relative;
 }
 
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 /* Added flex to student reviews*/
 .studentReviews {
     display: flex;
@@ -61,6 +67,7 @@ nav ul li a {
     top: 5%;
     left: 2%;
     width: 12%;
+    z-index: 0; /* lower z index value then header to display below it*/
 }
 .main-photo{
     max-width: 100%;
