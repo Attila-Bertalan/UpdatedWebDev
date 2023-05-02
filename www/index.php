@@ -127,43 +127,50 @@
 
         <div class="studentReviews">
             <div class="card-student">
-                <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                <div class ="imageContainer">
+                    <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                </div>
                 <div class="container-student">
-                <h4><b>Micah </b></h4>
-                <p>Computer Science Student</p>
+                    <h4><b>Micah </b></h4>
+                    <p>Computer Science Student</p>
+                </div>
                 <div class="student-review-text">
                     <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
                         I liked how user-friendly the app is. 
-                        I would recommend this app to anyone who is looking for an effective way to learn. </p>
-                </div>
+                        I would recommend this app to anyone who is looking for an effective way to learn. 
+                    </p>
                 </div>
             </div>
             <div class="card-student">
-                <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                <div class ="imageContainer">
+                    <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                </div>
                 <div class="container-student">
-                <h4><b>Maisie </b></h4>
-                <p>Art Student</p>
+                    <h4><b>Maisie </b></h4>
+                    <p>Art Student</p>
+                </div>
                 <div class="student-review-text">
                     <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
                         I liked how user-friendly the app is. 
-                        I would recommend this app to anyone who is looking for an effective way to learn. </p>
+                        I would recommend this app to anyone who is looking for an effective way to learn.
+                    </p>
                 </div>
-                </div>
-            </div>     
-            
+            </div>
             <div class="card-student">
-                <img src="images/avatar1.png" alt="Avatar" style="width:55%">
-                <div class="container-student">
-                    <h4><b>Victor</b></h4>
-                    <p>Procrastinator</p>
-                    <div class="student-review-text">
-                        <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
-                            I liked how user-friendly the app is. 
-                            I would recommend this app to anyone who is looking for an effective way to learn. </p>
-                    </div>
-                
+                <div class ="imageContainer">
+                    <img src="images/avatar1.png" alt="Avatar" style="width:55%">
                 </div>
-            </div> 
+                <div class="container-student">
+                    <h4><b>Victor </b></h4>
+                    <p>Procrastinator</p>
+                </div>
+                <div class="student-review-text">
+                    <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
+                        I liked how user-friendly the app is. 
+                        I would recommend this app to anyone who is looking for an effective way to learn. 
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     
