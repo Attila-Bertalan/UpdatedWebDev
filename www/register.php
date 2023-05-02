@@ -10,13 +10,8 @@
 </head>
 
 <body>
-
-
-
-
-
     <div class = "hero">
-        <nav>
+        <nav class = "header">
             <img src="images/menu.png" class ="menu-img" width="50" height="50">
             <img src="images/logo.png" class ="logo" width="50" height="50">
             <ul>
