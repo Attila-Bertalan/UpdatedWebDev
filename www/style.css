@@ -58,7 +58,19 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #00986f;
+    border: #ffffff solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #00291e;
+    font-size:15px;
+    font-weight: bold;
+}
+.links:hover {
+    opacity: 0.8;
+}
+.links:active {
+    opacity: 0.5;
 }
 /* end of navigation styles */
 

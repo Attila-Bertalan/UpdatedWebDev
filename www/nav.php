@@ -2,16 +2,16 @@
             <img src="images/menu.png" class ="menu-img" width="50" height="50">
             <img src="images/logo.png" class ="logo" width="75" height="65">
             <ul>
-                <li>
+                <li class="links">
                     <a href="index.php">Home</a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="login.php">Login</a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="register.php">Register</a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="about.php">About</a>
                 </li>
             </ul>

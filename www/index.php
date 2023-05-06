@@ -67,7 +67,7 @@
                 <img src="images/avatar1.png" alt="Avatar" style="width:55%">
                 <div class="container">
                 <h4><b>Sean Connolly</b></h4>
-                <p>Backend Specialist</p>
+                <p>Frontend Specialist</p>
                 </div>
             </div>     
             
