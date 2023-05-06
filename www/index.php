@@ -19,7 +19,10 @@
             </div>
 
             <div class ="text-container">
-                <h1>Welcome To Ace Training</h1>
+                <h1>Welcome To </h1>
+                <div class = "titleContainer">
+                    <h1><span class = "websiteTitle">Ace Training</span></h1>
+                </div>
                 <p>As a student, it is important to have academic skills.
                     However, it can be difficult to improve these skills on your own.
                     That is where Ace Training comes in. Ace Training is a website made by students for students that helps you improve your academic skills.</p>

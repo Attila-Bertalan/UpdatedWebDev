@@ -58,7 +58,7 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 /* end of navigation styles */
 
@@ -74,6 +74,22 @@ nav ul li a {
     max-width: 600px;
     margin-top: 7%;
     margin-left: 50%;
+    text-align: center;
+}
+
+.websiteTitle {
+    color: #00986f;
+}
+.titleContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    background-color: #00291e;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: #fff solid;
 }
 
 .text-container h1{
