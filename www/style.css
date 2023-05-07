@@ -56,22 +56,44 @@ nav ul li{
 
 }
 
-nav ul li a {
+nav ul li a , .contactUsLink{
     text-decoration: none;
-    color: #00986f;
-    border: #ffffff solid 2px;
-    border-radius: 10px;
+    color: #ffffff;
+    border: #000000 solid 2px;
+    border-radius: 20px;
     padding: 10px;
-    background-color: #00291e;
+    background-color: #00986f;
     font-size:15px;
     font-weight: bold;
+    transition: 500ms;
 }
-.links:hover {
+.indexNav:hover, .loginNav:hover, 
+.registerNav:hover, .aboutNav:hover{
     opacity: 0.8;
+    padding: 15px;
+    transition: 500ms;
+    background-color: #00291e;
+    border-color: white;
 }
-.links:active {
-    opacity: 0.5;
+.contactUsLink:hover {
+    background-color: #00291e;
+    border-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
+.indexNav:active, .loginNav:active, 
+.registerNav:active, .aboutNav:active {
+    opacity: 0.2;
+    transition: 1ms;
+}
+.contactUsLink:active {
+    opacity: 0.2;
+    transition: 1ms;
+}
+
 /* end of navigation styles */
 
 .pic-container{
@@ -84,7 +106,7 @@ nav ul li a {
 
 .text-container{
     max-width: 600px;
-    margin-top: 7%;
+    margin-top: 7%; 
     margin-left: 50%;
     text-align: center;
 }

@@ -23,10 +23,8 @@
                 <div class = "titleContainer">
                     <h1><span class = "websiteTitle">Ace Training</span></h1>
                 </div>
-                <p>As a student, it is important to have academic skills.
-                    However, it can be difficult to improve these skills on your own.
-                    That is where Ace Training comes in. Ace Training is a website made by students for students that helps you improve your academic skills.</p>
-                <a href="contact.php">Contact Us! </a>
+                <p>Elevate your student life by mastering essential academic skills with Ace Training! We know it can be a challenge to hone these proficiencies alone, but worry no more! Ace Training, created by students for students, is your ultimate online platform to level up your educational journey. So, let's ace academics together!</p>
+                <a href="contact.php" class="contactUsLink"> Contact Us! </a>
             </div>
         </div> 
 
@@ -47,7 +45,7 @@
 
 
 
-        <h2 class="meet-team">Meet our team</h2>
+        <h2 class="why-ace">Meet our team!</h2>
 
         <!--CREATING EMPTY SPACE TO SPACE OUT TEXT-->
 

@@ -3,16 +3,16 @@
             <img src="images/logo.png" class ="logo" width="75" height="65">
             <ul>
                 <li class="links">
-                    <a href="index.php">Home</a>
+                    <a href="index.php" class="indexNav">Home</a>
                 </li>
                 <li class="links">
-                    <a href="login.php">Login</a>
+                    <a href="login.php" class="loginNav">Login</a>
                 </li>
                 <li class="links">
-                    <a href="register.php">Register</a>
+                    <a href="register.php" class="registerNav">Register</a>
                 </li>
                 <li class="links">
-                    <a href="about.php">About</a>
+                    <a href="about.php" class="aboutNav">About</a>
                 </li>
             </ul>
         </nav>
