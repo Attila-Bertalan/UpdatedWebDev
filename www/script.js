@@ -1,4 +1,4 @@
-function validateForm() {
+function validateRegister() {
   //initialise all required values from form
   let name1 = document.forms["frmRegister"]["firstname"].value;
   let name2 = document.forms["frmRegister"]["lastname"].value;
@@ -53,5 +53,38 @@ function validateForm() {
           return false;
         }
       }
+
+}
+
+function validateLogin() {
+  //initialise all required values from form
+  let password = document.forms["login"]["password"].value;
+  let email = document.forms["login"]["email"].value;
+
+  // validation to make sure a password is secure
+  let regex1 = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_\-+={}[\]:;'"<>?,./])[A-Za-z\d!@#$%^&*()_\-+={}[\]:;'"<>?,./]{8,}$/;
+  // validation for email
+  let regex2 = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{3,5}$/;
+
+    // validates email
+    if (email == "") {
+      alert("Please enter your email.");
+      return false;
+    } else {
+        if (!regex2.test(email)) {
+          alert("You have entered invalid characters, please enter a valid email.");
+          return false;
+        }
+      }
+  // validates password
+  if (password == "") {
+    alert("Please enter your Password.");
+    return false;
+  } else {
+      if (!regex1.test(password)) {
+        alert("You have entered invalid characters, please make sure your password has atleast:\n- 1 Capital letter (A-Z)\n- 1 Special character (@%£&!)\n- 1 Number (0-9)\n - 8 characters minimum");
+        return false;
+      }
+    }
 
 }

@@ -15,7 +15,7 @@
         <?php include "nav.php" ?>
     </div>
 
-    <form id="form" name="frmRegister" action="registration.php" onsubmit = "return validateForm()" method="POST">
+    <form id="form" name="frmRegister" action="registration.php" onsubmit = "return validateRegister()" method="POST">
         <div>
             <div class="input-control">
                 <label for="First">First Name:</label>
