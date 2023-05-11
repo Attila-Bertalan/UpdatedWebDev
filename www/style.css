@@ -348,6 +348,7 @@ nav ul li a , .contactUsLink{
 .footerTop {
     display: flex;
     justify-content: space-between;
+    align-items: top;
     width: 100%;
     color: white;
 }
@@ -367,7 +368,8 @@ nav ul li a , .contactUsLink{
 }
 
 .line {
-    border: solid 2px white;
+    border: solid 1px black;
+    border-radius: 5PX;
     display: flex;
     width: 100%;
 }
@@ -380,6 +382,40 @@ nav ul li a , .contactUsLink{
 }
 .contactUsGap {
     height: 80px;
+}
+
+.footerTop > div {
+    text-align: center;
+}
+
+.footerLink > a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footerLink {
+    padding: 2px;
+}
+
+.footerTitle {
+    padding-bottom: 12px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.slogan {
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    word-spacing: 3px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: overline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
 }
 
 
