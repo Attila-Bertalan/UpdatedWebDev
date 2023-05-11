@@ -323,3 +323,55 @@ nav ul li a , .contactUsLink{
     padding: 10px; /* add padding to create spacing between cells */
     border-style: solid;
 }
+
+/*
+    Footer styles
+*/
+.footerContainer {
+    background-color: #00986f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 80px 20px 80px;
+    margin-top: 8%;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.footerBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.socialMediaLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.line {
+    border: solid 2px white;
+    display: flex;
+    width: 100%;
+}
+
+.registerGap {
+    height: 200px;
+}
+.loginGap {
+    height: 310px;
+}
+.contactUsGap {
+    height: 80px;
+}
+
+

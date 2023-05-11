@@ -50,8 +50,12 @@
 
 
         <button class="submitButton" type="submit">submit</button>
-
+        
     </form>
+
+    <div class = "registerGap"></div>
+
+    <?php include "footer.php" ?>
     
 </body>
 

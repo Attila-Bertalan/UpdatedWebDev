@@ -11,7 +11,7 @@
 
 <body>
     <div class = "hero">
-    <?php include "nav.php" ?>
+        <?php include "nav.php" ?>
 
 
         <div class = "loginContainer">
@@ -23,6 +23,11 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
+
+        <div class = "loginGap"></div>
+
+        <?php include "footer.php" ?>
+
     </div>   
     <script>
         function showPassword() {

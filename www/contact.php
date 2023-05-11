@@ -33,19 +33,9 @@
         </form>
 
         </div>
-
-
-
-
     </div>
-    
+
+    <div class = "contactUsGap"></div>
+
+    <?php include "footer.php" ?>
 </body>
-
-</html>
-
-
-    </div>
-    
-</body>
-
-</html>
