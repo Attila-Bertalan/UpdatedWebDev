@@ -27,7 +27,7 @@
         <form action = "https://formsubmit.co/attila_bertalan2@yahoo.com" method="POST">
 
             <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="email" class = "contactEmail" name="email" placeholder="Email Address" required>
             <input type="message" name="Message" placeholder="Message" required>
             <button type="submit" class="submitButton">Send</button> 
         </form>
