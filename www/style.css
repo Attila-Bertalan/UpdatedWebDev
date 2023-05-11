@@ -374,6 +374,7 @@ nav ul li a , .contactUsLink{
     width: 100%;
 }
 
+/* gaps for form php files */
 .registerGap {
     height: 200px;
 }
@@ -383,6 +384,7 @@ nav ul li a , .contactUsLink{
 .contactUsGap {
     height: 80px;
 }
+
 
 .footerTop > div {
     text-align: center;
@@ -418,4 +420,16 @@ nav ul li a , .contactUsLink{
     text-transform: capitalize;
 }
 
+.socialMediaImages > img {
+    width: 35px;
+    height: 35px;
+}
+.socialMediaImages {
+    padding: 10px;
+    border: #000000 solid 0.5px;
+    border-radius: 30px;
+}
+.copyrightMessage {
+    color: #000000;
+}
 

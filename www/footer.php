@@ -27,14 +27,14 @@
   <div class = "line"></div>
   <div class = "footerBottom">
     <div class = "socialMediaLinks">
-      <div>x</div>
-      <div>x</div>
-      <div>x</div>
-      <div>x</div>
-      <div>x</div>
+      <div class = "socialMediaImages"><img src = "images/logos/instagram.png"></img></div>
+      <div class = "socialMediaImages"><img src = "images/logos/snapchat.png"></img></div>
+      <div class = "socialMediaImages"><img src = "images/logos/linkedin.png"></img></div>
+      <div class = "socialMediaImages"><img src = "images/logos/whatsapp.png"></img></div>
+      <div class = "socialMediaImages"><img src = "images/logos/youtube.png"></img></div>
     </div>
     <div class = "copyrightMessage">
-      <div>x</div>
+      &#169;Copyright. All rights reserved
     </div>
   </div>
 </div>
