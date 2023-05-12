@@ -12,8 +12,7 @@
 <body>
     <div class = "hero">
         <?php include "nav.php" ?>
-
-
+        
         <div class = "loginContainer">
             <form action="LogMeIn.php" name="login" onsubmit = "return validateLogin()" method="post" >
 

@@ -45,7 +45,7 @@
 
             <div class = "infoContainer">
                 <div>
-                    <img src = "images/about-image-one.jpg">
+                    <img src = "images/about-image-one.jpg" alt = "people studying by giant books">
                 </div>
                 <div>
                     <a class = "aboutText">
@@ -75,7 +75,7 @@
                     </a>
                 </div>
                 <div>
-                    <img src = "images/about-image-two.jpg">
+                    <img src = "images/about-image-two.jpg" alt = "studying equipment">
                 </div>
             </div>
         </div>
