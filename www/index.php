@@ -15,7 +15,7 @@
 
         <div class="welcomeContainer"> 
             <div class = "pic-container">
-                <img src="images/mainpagemainphoto.jpg" class ="MainPhoto"  style="width: 350%" alt = "people in a meeting on a table">
+                <img src="images/mainpagemainphoto.jpg" class ="MainPhoto"  style="width: 350%">
             </div>
 
             <div class ="text-container">
