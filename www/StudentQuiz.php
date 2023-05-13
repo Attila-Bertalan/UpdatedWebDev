@@ -19,7 +19,7 @@ $user_ID = $_SESSION['loginID'];
 ?>
 <body>
     <div class = "hero">
-        <?php include "studentNav.php" ?>
+        <?php include "importFiles/studentNav.php" ?>
 
 
         <div class="StudentLinks">
@@ -32,9 +32,11 @@ $user_ID = $_SESSION['loginID'];
 
 
         </div>
+
+        <?php include "importFiles/studentFooter.php"?>
+
         
         <?php
-       
         
             // connect to the database
             $conn = mysqli_connect("localhost", "root", "root", "acetraining");
@@ -75,16 +77,7 @@ $user_ID = $_SESSION['loginID'];
                 // display the user's score
                 echo 'Your score is ' . $score;
             }
-        
-        
-        
-        
-        
-        
         ?>
-        
-
-        
     </div>
     
 </body>

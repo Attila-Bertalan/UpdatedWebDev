@@ -22,7 +22,7 @@ $lastname = $_SESSION["loginLastname"] ;
 ?>
 <body>
     <div class = "hero">
-        <?php include "studentNav.php" ?>
+        <?php include "importFiles/studentNav.php" ?>
 
 
         <div class="StudentLinks">
@@ -59,7 +59,8 @@ $lastname = $_SESSION["loginLastname"] ;
         </table>
         </div>
 
-        
+        <?php include "importFiles/studentFooter.php" ?>
+
     </div>
     
 </body>

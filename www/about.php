@@ -11,7 +11,7 @@
 
 <body>
     <div class = "hero">
-        <?php include "nav.php" ?>
+        <?php include "importFiles/nav.php" ?>
 
         <div class = "aboutUsContainer">
             <div class = "aboutUsContainerIntro">
@@ -80,7 +80,7 @@
             </div>
         </div>
     
-        <?php include "footer.php" ?>
+        <?php include "importFiles/footer.php" ?>
     </div>
 </body>
 
