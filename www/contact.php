@@ -29,7 +29,7 @@
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" class = "contactEmail" name="email" placeholder="Email Address" required>
             <input type="message" name="Message" placeholder="Message" required>
-            <button type="submit" class="submitButton">Send</button> 
+            <button type="submit"  id = "registerSubmitBtn" class="submitButton">Send</button> 
         </form>
 
         </div>
