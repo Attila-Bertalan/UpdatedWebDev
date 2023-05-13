@@ -49,7 +49,7 @@
         </div>
 
 
-        <button class="submitButton" type="submit">submit</button>
+        <button class="submitButton" id = "registerSubmitBtn" type="submit">submit</button>
         
     </form>
 

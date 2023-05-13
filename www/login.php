@@ -17,7 +17,7 @@
         <div class = "loginContainer">
             <form action="LogMeIn.php" name="login" onsubmit = "return validateLogin()" method="post" >
 
-                Email:<input type="text" id="email" name="email" type="text"><br>
+                Email:<input type="text" id="email" name="email" type="text" placeholder = "example@email.com"><br>
                 Password:<input type="password" id="password" name="password">
                 <input type="checkbox" onClick="showPassword()"/>Show password
                 <input type="submit" value="Submit">
