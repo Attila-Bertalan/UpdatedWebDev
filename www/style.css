@@ -264,8 +264,18 @@ nav ul li a , .contactUsLink{
     border-radius: 4px;
     box-sizing: border-box;
   }
+
   
-  input[type=submit], .submitButton {
+  input[type=submit]:hover, #registerSubmitBtn:hover {
+    opacity: 0.8;
+    padding: 15px;
+    transition: 500ms;
+    background-color: #00291e;
+    border-color: white; 
+    padding: 20px; 
+}
+
+ input[type=submit], .submitButton {
     width: 100%;
     background-color: #00986f;
     color: white;
@@ -278,15 +288,6 @@ nav ul li a , .contactUsLink{
     font-size: 15px;
     transition: 500ms;
   }
-  
-  input[type=submit]:hover, #registerSubmitBtn:hover {
-    opacity: 0.8;
-    padding: 15px;
-    transition: 500ms;
-    background-color: #00291e;
-    border-color: white; 
-    padding: 20px; 
-}
 
 input[type=submit]:active, #registerSubmitBtn:active {
     opacity: 0.3;

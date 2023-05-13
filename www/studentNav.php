@@ -72,28 +72,20 @@
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn"><img src = "images/menu.png" width = "50px" height = "50px"></button>
                 <div id="myDropdown" class="dropdown-content">
-                <h1 id = "subtitle">Learning Tools</h1>
-                  <a href="index.php">Home</a>
-                  <a href="login.php">Login</a>
-                  <a href="register.php">Register</a>
-                  <a href="#">News</a>
-                  <a href="#">Reviews</a>
-                  <a href="about.php">About us</a>
-                  <a href="contact.php">Contact us</a>
+                    <h1 id = "subtitle">Learning Tools</h1>
+                    <a href="StudentPage.php">Student home</a>
+                    <a href="StudentQuiz.php">Quizzes</a>
+                    <a href="StudentReading.php">Reading</a>
+                    <a href="StudentResources.php">Resources</a>
+                    <a href="LogMeOut.php">Logout</a>
                 </div>
             </div><img src="images/logo.png" class ="logo" width="75" height="65">
             <ul>
-                <li class="links">
-                    <a href="index.php" class="indexNav">Home</a>
+                <li>
+                  <p><?php echo 'Welcome back '.$firstname .' '. $lastname.' !' ?> &nbsp; <img src="images/avatar1.png" id="Avatar" style="width: 4%"></p>
                 </li>
-                <li class="links">
-                    <a href="login.php" class="loginNav">Login</a>
-                </li>
-                <li class="links">
-                    <a href="register.php" class="registerNav">Register</a>
-                </li>
-                <li class="links">
-                    <a href="about.php" class="aboutNav">About</a>
+                <li>
+                    <a href="LogMeOut.php" class="indexNav">Logout</a>
                 </li>
             </ul>
         </nav>

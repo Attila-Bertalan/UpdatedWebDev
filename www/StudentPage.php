@@ -22,26 +22,8 @@ $lastname = $_SESSION["loginLastname"] ;
 ?>
 <body>
     <div class = "hero">
-        <nav class = "header">
-            <img src="images/menu.png" class ="menu-img" width="50" height="50">
-            <img src="images/logo.png" class ="logo" width="75" height="65">
-            <ul>
-                <li>
-                
-                <p><?php echo 'Welcome back '.$firstname .' '. $lastname.' !' ?> &nbsp; <img src="images/avatar1.png" id="Avatar" style="width: 4%"></p>
-                </li>
-                <li>
-                    <a href="LogMeOut.php">Logout</a>
-                </li>
-                <li>
-                    <a href="index.php">Home</a>
-                </li>
-                <li>
-                    <a href="about.php">About</a>
-                </li>
+        <?php include "studentNav.php" ?>
 
-            </ul>
-        </nav>
 
         <div class="StudentLinks">
 
