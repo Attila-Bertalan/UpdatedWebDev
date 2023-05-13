@@ -11,7 +11,7 @@ function validateRegister() {
   // validation to make sure a password is secure
   let regex1 = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_\-+={}[\]:;'"<>?,./])[A-Za-z\d!@#$%^&*()_\-+={}[\]:;'"<>?,./]{8,}$/;
   // validation for email
-  let regex2 = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{3,5}$/;
+  let regex2 = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,5}\.[a-zA-Z]{2,3}$/;
 
   // validates forename
   if (name1 == "") {

@@ -10,7 +10,26 @@
     $isTutor = $_POST['isTutor'];
     $isAdmin = $_POST['isAdmin'];
 
+    $conn = mysqli_connect("localhost","root","root");
+
+    //creates database shopping cart
+    $sql = "CREATE DATABASE IF NOT EXISTS acetraining";
+    mysqli_query($conn, $sql) or die(mysqli_error($conn));
+
+    //close connection
+    mysqli_close($conn);
+
+    // reconnect to host and db
     $conn = mysqli_connect("localhost","root","root","acetraining");
+
+    // creates table if not exists to store user info
+    /*CREATE TABLE IF NOT EXISTS `products` (
+        `id` int(11) NOT NULL AUTO_INCREMENT,
+        `firstname` varchar(200) NOT NULL,
+        `lastname` varchar(200) NOT NULL,
+        `pass` varchar(200) NOT NULL,
+        `email` varchar(200) NOT NULL, ); */
+
     
     if(mysqli_connect_errno()){
         echo"failed to connect to mysql: " . mysqli_connect_error();
