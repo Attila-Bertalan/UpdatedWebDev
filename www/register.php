@@ -12,7 +12,7 @@
 
 <body>
     <div class = "hero">
-        <?php include "nav.php" ?>
+        <?php include "importFiles/nav.php" ?>
     </div>
 
     <form id="form" name="frmRegister" action="registration.php" onsubmit = "return validateRegister()" method="POST">
@@ -55,7 +55,7 @@
 
     <div class = "registerGap"></div>
 
-    <?php include "footer.php" ?>
+    <?php include "importFiles/footer.php" ?>
     
 </body>
 

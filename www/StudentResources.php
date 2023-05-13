@@ -22,7 +22,7 @@ include "FilesManaging.php";
 ?>
 <body>
     <div class = "hero">
-        <?php include "studentNav.php" ?>
+        <?php include "importFiles/studentNav.php" ?>
 
         <div class="StudentLinks">
 
@@ -80,6 +80,8 @@ include "FilesManaging.php";
         </div>
         </div>
         
+        <?php include "importFiles/studentFooter.php" ?>
+ 
     </div>
     
 </body>
