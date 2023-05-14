@@ -79,6 +79,12 @@
                 </div>
             </div>
         </div>
+
+        <div class="returnToTop">
+          <div>
+            <a class="returnButton" href="">Return to top</a>
+          </div>
+        </div>
     
         <?php include "importFiles/footer.php" ?>
     </div>

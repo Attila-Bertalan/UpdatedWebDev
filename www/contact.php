@@ -11,7 +11,7 @@
 
 <body>
     <div class = "hero">
-    <?php include "importFiles/nav.php" ?>
+        <?php include "importFiles/nav.php" ?>
 
 
         <div class = "pic-container">

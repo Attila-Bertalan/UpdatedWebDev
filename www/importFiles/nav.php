@@ -72,12 +72,14 @@
             <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn"><img src = "images/menu.png" width = "50px" height = "50px"></button>
                 <div id="myDropdown" class="dropdown-content">
-                <h1 id = "subtitle">Learning Tools</h1>
+                  <h1 id = "subtitle">Ace Training</h1>
                   <a href="index.php">Home</a>
-                  <a href="login.php">Login</a>
-                  <a href="register.php">Register</a>
                   <a href="#">News</a>
                   <a href="#">Reviews</a>
+                  <h1 id = "subtitle">Get Started!</h1>
+                  <a href="login.php">Login</a>
+                  <a href="register.php">Register</a>
+                  <h1 id = "subtitle">Find Out More</h1>
                   <a href="about.php">About us</a>
                   <a href="contact.php">Contact us</a>
                 </div>
