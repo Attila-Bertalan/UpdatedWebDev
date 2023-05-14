@@ -104,9 +104,11 @@
                 <h4><b>Micah </b></h4>
                 <p>Computer Science Student</p>
                 <div class="student-review-text">
-                    <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
-                        I liked how user-friendly the app is. 
-                        I would recommend this app to anyone who is looking for an effective way to learn. </p>
+                    <p>
+                        I recently tried this app and found it incredibly useful, especially for beginners in 
+                        computing. Its user-friendly interface made learning an enjoyable experience. I would 
+                        recommend it to anyone seeking an effective learning tool.
+                    </p>
                 </div>
                 </div>
             </div>
@@ -116,10 +118,12 @@
                     <h4><b>Maisie </b></h4>
                     <p>Art Student</p>
                     <div class="student-review-text">
-                        <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
-                            I liked how user-friendly the app is. 
-                            I would recommend this app to anyone who is looking for an effective way to learn. </p>
-                </div>
+                        <p>
+                            The app has been a lifesaver for me as I don't have much expertise 
+                            in computing. It's so easy to navigate and really helps users grasp the 
+                            concepts quickly. Highly recommended for those who want to learn efficiently.
+                        </p>
+                    </div>
                 </div>
             </div>     
             
@@ -129,9 +133,12 @@
                     <h4><b>Victor</b></h4>
                     <p>Procrastinator</p>
                     <div class="student-review-text">
-                        <p>This app is super useful and helpful for users that lack advanced knowledge in Computing. 
-                            I liked how user-friendly the app is. 
-                            I would recommend this app to anyone who is looking for an effective way to learn. </p>
+                        <p>
+                            Amazing! This app has made it so much easier for me to understand 
+                            computing concepts, despite not having prior knowledge. The interface 
+                            is simple and well-designed. I'd suggest this app to anyone who wants a 
+                            stress-free way to learn computing.
+                        </p>
                     </div>
                 
                 </div>
