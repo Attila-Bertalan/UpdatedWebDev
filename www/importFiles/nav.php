@@ -74,8 +74,8 @@
                 <div id="myDropdown" class="dropdown-content">
                   <h1 id = "subtitle">Ace Training</h1>
                   <a href="index.php">Home</a>
-                  <a href="#">News</a>
-                  <a href="#">Reviews</a>
+                  <a href="news.php">News</a>
+                  <a href="reviews.php">Reviews</a>
                   <h1 id = "subtitle">Get Started!</h1>
                   <a href="login.php">Login</a>
                   <a href="register.php">Register</a>

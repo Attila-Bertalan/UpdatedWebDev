@@ -469,6 +469,16 @@ input[type=submit]:active, #registerSubmitBtn:active {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
+    transition: 400ms;
+}
+.footerLink > a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+    transition: 400ms;
+}
+.footerLink > a:active {
+    opacity: 0.3;
+    transition: 0ms;
 }
 
 .footerLink {

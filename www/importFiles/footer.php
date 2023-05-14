@@ -10,8 +10,8 @@
     <div>
       <div class = "footerTitle">ACE TRAINING</div>
       <div class = "footerLink"><a href = "index.php">Home</a></div>
-      <div class = "footerLink"><a href = "">News</a></div>
-      <div class = "footerLink"><a href = "">Reviews</a></div>
+      <div class = "footerLink"><a href = "news.php">News</a></div>
+      <div class = "footerLink"><a href = "reviews.php">Reviews</a></div>
     </div>
     <div>
       <div class = "footerTitle">WANT TO GET STARTED?</div>

@@ -11,8 +11,8 @@
       <div class = "footerTitle">ACE TRAINING</div>
       <div class = "footerLink"><a href = "index.php" target = "_blank">Home</a></div>
       <div class = "footerLink"><a href = "StudentPage.php">Student Home</a></div>
-      <div class = "footerLink"><a href = "" target="_blank">News</a></div>
-      <div class = "footerLink"><a href = "" target="_blank">Reviews</a></div>
+      <div class = "footerLink"><a href = "news.php" target="_blank">News</a></div>
+      <div class = "footerLink"><a href = "reviews.php" target="_blank">Reviews</a></div>
     </div>
     <div>
       <div class = "footerTitle">LEARN NOW</div>
