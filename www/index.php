@@ -15,7 +15,7 @@
 
         <div class="welcomeContainer"> 
             <div class = "pic-container">
-                <img src="images/mainpagemainphoto.jpg" class ="MainPhoto"  style="width: 350%">
+                <img src="images/mainpagemainphoto.jpg" class ="MainPhoto">
             </div>
 
             <div class ="text-container">
@@ -32,18 +32,6 @@
         <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-        <h1>&nbsp;</h1>
-
-
-
-
-
-
 
         <h2 class="why-ace">Meet our team!</h2>
 
@@ -55,14 +43,14 @@
         <!--PEOPLE CARD SECTION 1-->
         <div class="card-container1">
             <div class="card">
-                <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                <img src="images/avatar1.png" alt="Avatar" style="width:300px; border-radius: 20px;">
                 <div class="container">
                 <h4><b>Adham </b></h4>
                 <p>Chairman</p>
                 </div>
             </div>
             <div class="card">
-                <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                <img src="images/avatar1.png" alt="Avatar" style="width:300px; border-radius: 20px;" >
                 <div class="container">
                 <h4><b>Sean Connolly</b></h4>
                 <p>Frontend Specialist</p>
@@ -70,7 +58,7 @@
             </div>     
             
             <div class="card">
-                <img src="images/avatar1.png" alt="Avatar" style="width:55%">
+                <img src="images/avatar1.png" alt="Avatar" style="width:300px; border-radius: 20px;">
                 <div class="container">
                 <h4><b>Attila Bertalan</b></h4>
                 <p>Computer Scientist</p>
