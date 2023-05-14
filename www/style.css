@@ -108,14 +108,17 @@ nav ul li a , .contactUsLink, .returnButton {
 }
 .welcomeContainer {
     display: flex;
-    padding: 40px;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    padding: 30px;
     gap: 30px;
     justify-content: center;
     align-items: center;
+    min-width: 0;
 }
 
 .text-container{
-    max-width: 900px;
+    max-width: 750px;
     text-align: center;
     background-color: #00986f92;
     padding: 30px;
