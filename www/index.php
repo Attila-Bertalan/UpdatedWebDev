@@ -44,24 +44,24 @@
         <div class="card-container1">
             <div class="card">
                 <img src="images/avatar1.png" alt="Avatar" style="width:300px; border-radius: 20px;">
-                <div class="container">
-                <h4><b>Adham </b></h4>
-                <p>Chairman</p>
+                <div class="ourTeamContainer">
+                    <h4><b>Adham </b></h4>
+                    <p>Chairman</p>
                 </div>
             </div>
             <div class="card">
                 <img src="images/avatar1.png" alt="Avatar" style="width:300px; border-radius: 20px;" >
-                <div class="container">
-                <h4><b>Sean Connolly</b></h4>
-                <p>Frontend Specialist</p>
+                <div class="ourTeamContainer">
+                    <h4><b>Sean Connolly</b></h4>
+                    <p>Frontend Specialist</p>
                 </div>
             </div>     
             
             <div class="card">
                 <img src="images/avatar1.png" alt="Avatar" style="width:300px; border-radius: 20px;">
-                <div class="container">
-                <h4><b>Attila Bertalan</b></h4>
-                <p>Computer Scientist</p>
+                <div class="ourTeamContainer">
+                    <h4><b>Attila Bertalan</b></h4>
+                    <p>Computer Scientist</p>
                 </div>
             </div> 
          </div>
