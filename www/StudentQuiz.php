@@ -29,6 +29,8 @@ $user_ID = $_SESSION['loginID'];
             <a href="StudentReading.php" class="StudentButton">Reading</a>
  
             <a href="StudentPage.php" class="StudentButton">Student Home</a>
+            
+            <a href="StudentCourses.php" class="StudentButton">Courses</a>
 
 
         </div>
