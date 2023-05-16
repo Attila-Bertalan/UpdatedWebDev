@@ -32,32 +32,55 @@ $lastname = $_SESSION["loginLastname"] ;
             <a href="StudentReading.php" class="StudentButton">Reading</a>
  
             <a href="StudentQuiz.php" class="StudentButton">Quizzes</a>
+            
+            <a href="StudentCourses.php" class="StudentButton">Courses</a>
 
 
         </div>
 
-        <div class="StudentCourses">
-            <table class="courses-table">
+ <?php
+        // Connect to the database
+        $conn = mysqli_connect("localhost", "root", "root", "acetraining");
+
+        // Retrieve the authorized enrollments for the user
+        $user_ID; 
+        $sql = "SELECT enrollments.enrollment_id, courses.course_name, enrollments.status
+                FROM enrollments
+                INNER JOIN courses ON enrollments.course_ID = courses.course_ID
+                WHERE enrollments.user_ID = ?
+                AND enrollments.status = 'authorized'";
+
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("i", $user_ID);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        ?>
+
+        <!-- Display the enrollments in a table -->
+        <table>
             <thead>
                 <tr>
-                    <th>Course ID</th>
+                    <th>Enrollment ID</th>
                     <th>Course Name</th>
-                    <th>Teacher</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Dom</td>
-                    <td>6000</td>
-                </tr>
-                <tr class="active-row">
-                    <td>Melissa</td>
-                    <td>5150</td>
-                </tr>
-                <!-- and so on... -->
+                <?php while ($row = mysqli_fetch_assoc($result)) : ?>
+                    <tr>
+                        <td><?php echo $row['enrollment_id']; ?></td>
+                        <td><?php echo $row['course_name']; ?></td>
+                        <td><?php echo $row['status']; ?></td>
+                    </tr>
+                <?php endwhile; ?>
             </tbody>
         </table>
-        </div>
+
+        <?php
+        $stmt->close();
+        mysqli_free_result($result);
+        ?>
+
 
         <?php include "importFiles/studentFooter.php" ?>
 
