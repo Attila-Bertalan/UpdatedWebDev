@@ -231,7 +231,7 @@ nav ul li a , .contactUsLink, .returnButton {
     
 }
 /* Added flex to student reviews*/
-.studentReviews {
+.fewStudentReviews {
     display: flex;
     padding: 30px;
 }
@@ -577,7 +577,7 @@ input[type=submit]:active, #registerSubmitBtn:active {
 /* end of about.php styles */
 
 /* start of news.php styles */
-.newsTitle h1 {
+.newsTitle h1, .reviewTitle h1 {
     font-family: 'Times New Roman', Times, serif;
 
     display: flex;
@@ -690,3 +690,76 @@ input[type=submit]:active, #registerSubmitBtn:active {
 .containerLeft div a {
     font-size: 20px;
 }
+/* end of news.php styles */
+
+
+
+
+/* start of news.php styles */
+.reviewsContainerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;  
+}
+.reviewsContainerMain img {
+    width: 1000px;
+    box-shadow: 0px 0px 8px 3px;
+    border-radius: 30px;
+}
+.reviewsWelcomeMessage {
+    position: absolute;
+    top: 720px;
+    left: 350px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    box-shadow: 0px 0px 8px 3px;
+    background-color: #00986f;
+    border-radius: 30px;
+}
+.reviewsWelcomeMessage div h1 span {
+    font-weight: lighter;
+}
+.reviewsMessage {
+    font-size: 14px;
+}
+.studentReviews {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: fit-content;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-bottom: 75px;
+}
+.studentReview {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #00986f;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 3px;
+
+}
+.studentReviewName {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.studentReviewContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.studentReviewDesc {
+    width: 700px;
+}
+
+
+/* end of reviews.php styles */

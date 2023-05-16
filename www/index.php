@@ -97,7 +97,7 @@
         <!-- STUDENT REVIEWS-->
         <h2 class="why-ace">Student Reviews</h2>
 
-        <div class="studentReviews">
+        <div class="fewStudentReviews">
             <div class="card-student">
                 <img src="images/avatar1.png" alt="Avatar" style="width:55%">
                 <div class="container-student">
