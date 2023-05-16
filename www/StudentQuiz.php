@@ -32,11 +32,7 @@ $user_ID = $_SESSION['loginID'];
 
 
         </div>
-
-        <?php include "importFiles/studentFooter.php"?>
-
-        
-        <?php
+  <?php
         
             // connect to the database
             $conn = mysqli_connect("localhost", "root", "root", "acetraining");
@@ -60,6 +56,7 @@ $user_ID = $_SESSION['loginID'];
             // process the quiz form
             if (isset($_POST['submit'])) {
                 $score = 0;
+                mysqli_data_seek($result, 0); // this resets the pointer back to 0, so that way when comparing answers, the pointer goes to 0
                 while ($row = mysqli_fetch_assoc($result)) {
                     $answer = $_POST['answer' . $row['quiz_id']];
                     if ($answer == $row['answer']) {
@@ -78,6 +75,7 @@ $user_ID = $_SESSION['loginID'];
                 echo 'Your score is ' . $score;
             }
         ?>
+         <?php include "importFiles/studentFooter.php"?>
     </div>
     
 </body>
