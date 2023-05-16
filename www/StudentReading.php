@@ -32,6 +32,8 @@ $lastname = $_SESSION["loginLastname"] ;
             <a href="StudentPage.php" class="StudentButton">Student Home</a>
  
             <a href="StudentQuiz.php" class="StudentButton">Quizzes</a>
+            
+            <a href="StudentCourses.php" class="StudentButton">Courses</a>
 
 
         </div>
