@@ -66,6 +66,8 @@
             </div>
           </div>
 
+          <?php include "importFiles/returnButton.php" ?>
+
           <?php include "importFiles/footer.php" ?>
 
       </div>
