@@ -23,8 +23,10 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
+        <div class = "registerNowMessage"><h4>Don't have an account? <a href = "register.php">Sign up now!</a></h4></div>
 
         <div class = "loginGap"></div>
+
 
         <?php include "importFiles/footer.php" ?>
 

@@ -275,13 +275,36 @@ nav ul li a , .contactUsLink, .returnButton {
     background: #00986f;
     padding: 20px; 
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     width: 50%;
     top: 100px;
     position: relative;
     
   }
 
+.registerNowMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.registerNowMessage h4 a {
+    text-decoration: none;
+    color: #00986f; 
+    padding: 10px;
+    transition: 300ms;
+    font-weight: bold;
+
+}
+.registerNowMessage h4 a:hover {
+    cursor: pointer;
+    transition: 300ms;
+    font-size: 15px;
+}
+.registerNowMessage h4 a:active {
+    opacity: 0.7;
+    transition: none;
+}
   #form {
     color: white;
   }
@@ -454,7 +477,7 @@ input[type=submit]:active, #registerSubmitBtn:active {
     height: 200px;
 }
 .loginGap {
-    height: 310px;
+    height: 180px;
 }
 .contactUsGap {
     height: 80px;

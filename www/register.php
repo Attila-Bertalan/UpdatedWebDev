@@ -53,6 +53,8 @@
         
     </form>
 
+    <div class = "registerNowMessage"><h4>Already have an account? <a href = "login.php">Log in now!</a></h4></div>
+
     <div class = "registerGap"></div>
 
     <?php include "importFiles/footer.php" ?>
